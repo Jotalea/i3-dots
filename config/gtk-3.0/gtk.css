@@ -1,0 +1,22 @@
+/* GTK Theme using i3wm colors */
+@define-color bg_color #EAF6FA;
+@define-color fg_color #2D2F30;
+@define-color accent_color #747C80;
+@define-color warning_color #A83A3A;
+
+* {
+    background-color: @bg_color;
+    color: @fg_color;
+}
+
+button {
+    background-color: @accent_color;
+    color: @bg_color;
+    border: none;
+    padding: 8px 16px;
+}
+
+entry, textview {
+    background-color: white;
+    border: 1px solid @accent_color;
+}
